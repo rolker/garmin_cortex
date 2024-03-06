@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>garmin_cortex</name>
+  <name>garmin_cortex_msgs</name>
   <version>0.0.0</version>
-  <description>Interface with Garmin Cortex devices</description>
+  <description>Messages used to interface with Garmin Cortex devices</description>
 
   <maintainer email="roland@ccom.unh.edu">Roland Arsenault</maintainer>
 
@@ -12,7 +12,7 @@
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>    message_generation</build_depend>
   <exec_depend>     message_runtime</exec_depend>
-  <depend>          roscpp</depend>
+  <depend>          std_msgs</depend>
 
   <export>
   </export>

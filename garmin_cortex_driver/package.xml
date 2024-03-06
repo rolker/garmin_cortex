@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>garmin_cortex_driver</name>
+  <version>0.0.0</version>
+  <description>Interface with Garmin Cortex devices</description>
+
+  <maintainer email="roland@ccom.unh.edu">Roland Arsenault</maintainer>
+
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>          garmin_cortex_msgs</depend>
+  <depend>          roscpp</depend>
+
+  <export>
+  </export>
+</package>
